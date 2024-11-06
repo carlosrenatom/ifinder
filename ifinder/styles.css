@@ -1,0 +1,63 @@
+/* Estilos para o layout */
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilo para o topo */
+#topbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+}
+
+#topbar button {
+    color: white;
+    background-color: #555;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Estilo para a seção do produto */
+#produto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Foto principal */
+#foto input[type="image"] {
+    width: 400px;  /* Define o tamanho da imagem principal */
+    height: auto;   /* Mantém a proporção original */
+}
+
+/* Miniaturas */
+#miniaturas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#miniaturas input[type="image"] {
+    width: 80px;  /* Tamanho fixo das miniaturas */
+    height: auto;  /* Mantém a proporção das miniaturas */
+    cursor: pointer; /* Deixa o cursor como uma mãozinha */
+}
+
+/* Ajustes para o texto de descrição do produto */
+#descricao {
+    padding: 20px;
+}
+
+#produto h4 {
+    margin: 0;
+}
+
+#bio h4 {
+    margin-top: 10px;
+}
+
